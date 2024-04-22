@@ -1,11 +1,11 @@
 {
-    "name": "4PS ruleset MS CodeCop BC 23.3",
+    "name": "4PS ruleset MS CodeCop BC23.3",
     "description": "These rules must be respected by all the AL code written within the company.",
     "rules": [
         {
             "id": "AA0101",
             "action": "Hidden",
-            "justification": "This rule contains a bug and does not work with a number in the API publisher name."
+            "justification": "This rule contains a bug and does not work with '4ps' as API publisher name."
         },
         {
             "id": "AL1076",
