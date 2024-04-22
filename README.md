@@ -1,6 +1,6 @@
 # 4PSCop
 
-Welcome to 4PSCop! This repository contains custom rulesets for CodeCops, designed specifically for each BC version.
+This repository contains custom rulesets for CodeCops, designed specifically for each BC version. These rules must be respected by all the AL code written within the company.
 
 ## Table of Contents
 
