@@ -1,0 +1,10 @@
+{
+    "name": "4PS general ruleset BC 23.3",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_msCodeCop_bc233.ruleset.json"
+        }
+    ]
+}
