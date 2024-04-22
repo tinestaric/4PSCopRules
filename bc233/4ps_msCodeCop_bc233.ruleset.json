@@ -3,6 +3,11 @@
     "description": "These rules must be respected by all the AL code written within the company.",
     "rules": [
         {
+            "id": "AA0101",
+            "action": "Hidden",
+            "justification": "This rule contains a bug and does not work with a number in the API publisher name."
+        },
+        {
             "id": "AL1076",
             "action": "Hidden",
             "justification": "The application 'Application', originally by 'Microsoft', is now published by '4PS B.V.' due to the use of a custom base application. Once migrated to the Microsoft Base Application, updating the dependency reference is recommended to ensure compatibility and benefit from improvements or bug fixes."
