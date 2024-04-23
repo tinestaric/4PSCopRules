@@ -13,7 +13,7 @@ CodeCops is a powerful tool for maintaining code quality. However, different BC 
 
 ## Usage
 
-To use 4PSCop, simply copy the link to the ruleset for your BC version and paste it into the ```settings.json``` file in your AL project. Make sure to enable the desired CodeCops and set the ```al.enableCodeAnalysis``` and ```al.enableExternalRulesets``` settings to ```true```. Here's an example of how your ```settings.json``` file should look:
+To use the 4PS ruleset, simply copy the link to the ruleset for your BC version and paste it into the ```settings.json``` file in your AL project. Make sure to enable the desired CodeCops and set the ```al.enableCodeAnalysis``` and ```al.enableExternalRulesets``` settings to ```true```. Here's an example of how your ```settings.json``` file should look:
     
 ```json
 {
