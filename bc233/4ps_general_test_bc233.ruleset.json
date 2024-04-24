@@ -1,0 +1,22 @@
+{
+    "name": "4PS general ruleset BC23.3",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AA0210",
+            "action": "Hidden",
+            "justification": "In test environment filtering on non key fields is not a problem."
+        },
+        {
+            "id": "AA0217",
+            "action": "Hidden",
+            "justification": "The use of a text constant or label for format string in StrSubstNo is not required for a test app."
+        }
+    ],
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_msCodeCop_bc233.ruleset.json"
+        }
+    ]
+}

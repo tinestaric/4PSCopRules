@@ -19,7 +19,20 @@ To use 4PSCop, simply copy the link to the ruleset for your BC version and paste
 {
   "al.enableCodeAnalysis": true,
   "al.enableExternalRulesets": true,
-  "al.ruleSetPath": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_general_bc233.ruleset.json",
+  "al.ruleSetPath": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_general_app_bc233.ruleset.json",
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${UICop}"
+  ]
+}
+```
+For test projects, you can use the following settings:
+
+```json
+{
+  "al.enableCodeAnalysis": true,
+  "al.enableExternalRulesets": true,
+  "al.ruleSetPath": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_general_test_bc233.ruleset.json",
   "al.codeAnalyzers": [
     "${CodeCop}"
   ]
