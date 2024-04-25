@@ -9,7 +9,7 @@ This repository contains custom rulesets for CodeCops, designed specifically for
 
 ## Introduction
 
-CodeCops is a powerful tool for maintaining code quality. However, different BC versions may require different rules and standards. That's where 4PSCop comes in. Our custom rulesets are tailored to each BC version, ensuring optimal code quality regardless of your BC version.
+CodeCops is a powerful tool for maintaining code quality. However, 4PS Construct requires different rules and standards. That's where 4PSCopRules comes in. Our custom rulesets are tailored to each BC version, ensuring optimal code quality regardless of your BC version.
 
 ## Usage
 
