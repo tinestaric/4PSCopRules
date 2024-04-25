@@ -1,4 +1,4 @@
-# 4PSCop
+# 4PSCopRules
 
 This repository contains custom rulesets for CodeCops, designed specifically for each BC version. These rules must be respected by all the AL code written within the company.
 
