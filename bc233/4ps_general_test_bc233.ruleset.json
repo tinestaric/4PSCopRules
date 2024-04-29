@@ -17,6 +17,10 @@
         {
             "action": "Default",
             "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_msCodeCop_bc233.ruleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/4PS-development/4PSCopRules/main/bc233/4ps_bcLinterCop_bc233.ruleset.json"
         }
     ]
 }
