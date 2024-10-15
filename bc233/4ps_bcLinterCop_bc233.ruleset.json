@@ -21,6 +21,11 @@
             "id": "LC0016",
             "action": "Hidden",
             "justification": "Caption is missing. Suppressed because of to many false warnings."
-        }
+        },
+        {
+            "id": "LC0068",
+            "action": "Hidden",
+            "justification": "Missing inherent permissions is currently irrelevant."
+        }        
     ]
 }
